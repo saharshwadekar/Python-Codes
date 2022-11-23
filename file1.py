@@ -1,0 +1,10 @@
+f = open("file1.txt","w+")
+f.write("Twinkle, twinkle, little star, \nHow I wonder what you are.\n Up above the world so high, \nLike a diamond in the sky.")
+f.close()
+
+f = open("file1.txt","r+")
+x = f.read()
+x = x.split()
+print(x)
+print(len(x))
+f.close()
